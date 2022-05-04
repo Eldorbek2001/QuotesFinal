@@ -1,0 +1,46 @@
+/* 
+
+The one style sheet for Quotations 1
+
+Authors: Rick Mercer and Ali Elbekov
+
+*/
+.containerMine {
+	vertical-align: text-top;
+	border: 2px black solid;
+	border-radius: 7px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 10pt;	
+}
+
+.quoteInput{
+	background-color: red;
+	display: block;
+	float: left;
+	border: 2px black solid;
+	border-radius: 7px;
+	padding: 15px;
+	margin: 20px;
+	font-size: 10pt;	
+	
+}
+.childPages{
+	display: block;
+	float: left;
+	border: 2px black solid;
+	border-radius: 7px;
+	padding: 15px;
+	margin: 20px;
+	font-size: 10pt;
+}
+.gradient-custom {
+/* fallback for old browsers */
+background: #6a11cb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
